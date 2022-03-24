@@ -31,6 +31,7 @@ function App() {
 
 export default App;
 
+
 const checkUserState = async () => {
   try {
     const auth = await getAuth();
